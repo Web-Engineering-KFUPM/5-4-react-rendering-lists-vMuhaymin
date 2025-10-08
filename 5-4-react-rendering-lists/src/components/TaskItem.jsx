@@ -10,6 +10,7 @@ return (
 
 
 {/* 🟩 PART B (Anchor): Only render <DueBadge /> if task is NOT done (logical &&) */}
+{!task.isDone && <DueBadge dueDate={task.dueDate} /> }
 
 
 {/* Task title goes here */}
