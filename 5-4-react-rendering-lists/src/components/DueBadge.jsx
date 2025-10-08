@@ -12,7 +12,7 @@ export default function DueBadge({ dueDate }) {
   // 🟩 PART C (Anchor):
   // 1) Call daysUntil(dueDate) → const d = ...
   const d = daysUntil(dueDate);
-  // 2) Use a ternary chain to set the label:
+    // 2) Use a ternary chain to set the label:
   // d < 0 → "Overdue"
   // d === 0 → "Due today"
   // d === 1 → "1 day remaining"
